@@ -1,0 +1,23 @@
+GET http://localhost:3000/users
+
+
+
+###
+
+POST http://localhost:3000/users
+Content-Type: application/json
+
+{"name": "Joy", "email":"j@y.com", "uname": "j", "pword": "happy"}
+
+###
+
+PUT http://localhost:3000/users/6716a18828195d9a51a922f1
+Content-Type: application/json
+
+{
+    "name": "mike"
+}
+
+###
+
+DELETE http://localhost:3000/users/6716a17e28195d9a51a922ed
